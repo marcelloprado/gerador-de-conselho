@@ -1,0 +1,65 @@
+body {
+    background-color: var(--fundo-dark);
+    color: hsl(193, 38%, 86%);
+    margin: 0 auto;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+}
+
+.conselho {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.conteudo-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fundo-grafite);
+    border-radius: 12px;
+    position: relative;
+    margin:20px;
+    width:330px
+}
+
+.conteudo-central .advice {
+    color: var(--btn-neon);
+    font-size: 15px;
+    letter-spacing: 5px;
+    padding: 50px 0 30px 0;
+    text-transform: uppercase;
+}
+
+.conteudo-central .texto-conselho {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+.conteudo-central .separacao {
+    padding: 30px 0 20px 0;
+    margin-bottom: 10%;
+}
+
+.conteudo-central .btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50vh;
+    width: 50px;
+    height: 50px;
+    background-color: var(--btn-neon);
+    margin: -30px 0 0 -25px;
+    position: absolute;
+}
+
+.conteudo-central .btn a:hover {
+    box-shadow: 0 0 35px hsl(150, 100%, 66%);
+    cursor: pointer;
+}
