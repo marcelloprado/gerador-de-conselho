@@ -23,8 +23,8 @@ body {
     background-color: var(--fundo-grafite);
     border-radius: 12px;
     position: relative;
-    margin:20px;
-    width:330px
+    margin: 20px;
+    width: 330px
 }
 
 .conteudo-central .advice {

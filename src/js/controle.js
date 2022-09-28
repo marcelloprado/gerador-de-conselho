@@ -19,5 +19,5 @@ botao.addEventListener('click', () => {
         descricaoConselho[0].innerHTML = pegandoConselho;
     }
     mostrarConselho();
-    
+
 });
